@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#main-div{
+    width: 70%;
+    height: 1250px;
+    border: 20px groove black;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20%;
+    background-color: antiquewhite;
+    padding: 40px;
+
+}
+
+.label{
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.textarea{
+    width: 92%;
+    padding: 10px;
+    box-sizing: border-box;
+   font-style: italic;
+   font-weight: bold;
+   margin-top: 5px;
+   
+    
+}
+
+.radio{
+    float: left;
+    margin: 50px;
+    font-weight: bold;
+    
+}
+
+textarea{
+    width: 92%;
+    height: 200px;
+    margin-top: 5px;
+}
+
+fieldset{
+    width: 92%;
+}
+
+.submit{
+    width: 92%;
+    padding: 10px;
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <form>
+    <div id="main-div">
+        
+        <label for="name" class="label">Name  <br> <input type="text" name="name" placeholder="Type your name heare" id="name" class="textarea">
+        </label>
+        
+        <br><br>
+
+        <label for="phone" class="label">Phone <br><input type="number" name="phone" placeholder="Type your phone number heare" id="phone" class="textarea">
+        </label>
+        
+        <br><br>
+
+        <label for="email" class="label">Email <br>  <input type="email" name="email" placeholder="Type your email id heare" id="email" class="textarea">
+        </label>
+        
+        <br>
+        <br>
+
+        
+        <fieldset>
+            <legend>Which Taxi Do You Require ?</legend>
+
+            
+            <label  class="radio"><input type="radio" value="car" name="taxi" >  Car</label>
+           
+
+            
+            <label  class="radio"><input type="radio" value="van" name="taxi">  Van</label>
+
+            
+            <label  class="radio"><input type="radio" name="taxi" value="ola">  Ola Car</label>
+
+            
+            <label  class="radio"><input type="radio" name="taxi" value="rapido" >  Rapido Taxi</label> 
+                
+            
+        </fieldset>
+            <br><br>
+
+        <fieldset>
+            <legend>Extra</legend>
+
+            <label  class="radio"><input type="checkbox" value="baby" name="extra" >  Baby Seat</label>
+           
+            <label   class="radio"><input type="checkbox" value="wheel" name="extra">  Wheel Chair</label>
+
+            <label   class="radio"><input type="checkbox" name="stock" value="extra" >  Stock Tip</label>
+
+            
+        </fieldset>
+
+        <br><br>
+
+        <label class="label">Pickup Date/Time  <input type="datetime-local" name="pickup_time" class="textarea"></label>
+        <br><br>
+        <label class="label">Pickup Place 
+            <select class="textarea">
+                <option value="" selected="selected">Select One</option>
+                <option value="taxi Office">Taxi Office</option>
+                <option value="Town Hall">Town Hall</option>
+                <option value="Town House">Town House</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label class="label">Drop Place 
+            <input type="text"  list="destination" class="textarea">
+        </label>
+
+        <datalist id="destination">
+            <option value="Airport">Airport</option>
+            <option value="Bus Stand">Bus Stand</option>
+            <option value="Railway Station">Railway Station</option>
+
+
+
+        </datalist>
+
+        <br><br>
+
+        <label class="label">Spical Intruction</label><br>
+        <textarea name="comments" maxlength="600" ></textarea>
+
+
+        <br><br>
+
+        <input type="submit" value=" Booking Submit" class="submit">
+    
+        
+
+</form>
+
+
+
+
+
+    
+</body>
+</html>
